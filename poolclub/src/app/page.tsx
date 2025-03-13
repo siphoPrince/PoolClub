@@ -139,7 +139,7 @@ export default function Home() {
                 <div className="mt-8 space-y-4">
                   <h3 className="text-2xl font-bold">Individual</h3>
                   <div className="flex items-baseline gap-1">
-                    <span className="text-3xl font-bold">$49</span>
+                    <span className="text-3xl font-bold">R49</span>
                     <span className="text-muted-foreground">/month</span>
                   </div>
                   <ul className="space-y-2 text-muted-foreground">
@@ -184,7 +184,7 @@ export default function Home() {
                 <div className="mt-8 space-y-4">
                   <h3 className="text-2xl font-bold">Family</h3>
                   <div className="flex items-baseline gap-1">
-                    <span className="text-3xl font-bold">$89</span>
+                    <span className="text-3xl font-bold">R89</span>
                     <span className="text-sky-100">/month</span>
                   </div>
                   <ul className="space-y-2 text-sky-100">
@@ -239,7 +239,7 @@ export default function Home() {
                 <div className="mt-8 space-y-4">
                   <h3 className="text-2xl font-bold">Elite</h3>
                   <div className="flex items-baseline gap-1">
-                    <span className="text-3xl font-bold">$129</span>
+                    <span className="text-3xl font-bold">R129</span>
                     <span className="text-muted-foreground">/month</span>
                   </div>
                   <ul className="space-y-2 text-muted-foreground">
@@ -387,7 +387,7 @@ export default function Home() {
                   <MapPin className="h-5 w-5 text-sky-600 mt-0.5" />
                   <div>
                     <h3 className="font-medium">Address</h3>
-                    <p className="text-muted-foreground">123 Splash Avenue, Watertown, CA 90210</p>
+                    <p className="text-muted-foreground">#</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -423,7 +423,7 @@ export default function Home() {
                   </svg>
                   <div>
                     <h3 className="font-medium">Phone</h3>
-                    <p className="text-muted-foreground">(555) 123-4567</p>
+                    <p className="text-muted-foreground">#</p>
                   </div>
                 </div>
               </div>
