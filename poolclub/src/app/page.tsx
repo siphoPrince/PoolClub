@@ -13,7 +13,7 @@ export default function Home() {
             <div className="h-8 w-8 rounded-full bg-sky-600 flex items-center justify-center">
               <span className="text-white font-bold">SC</span>
             </div>
-            <span className="font-bold text-xl">Splash Club</span>
+            <span className="font-bold text-xl">Thokoza Swimming Club</span>
           </Link>
           <nav className="ml-auto flex gap-4 sm:gap-6">
             <Link href="/" className="text-sm font-medium hover:underline underline-offset-4">
@@ -69,9 +69,9 @@ export default function Home() {
         <section id="about" className="w-full py-12 md:py-24 bg-sky-50">
           <div className="container grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-center">
             <div className="space-y-4 lg:col-span-1">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">About Splash Club</h2>
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">About Thokoza Swimming Club</h2>
               <p className="text-muted-foreground">
-                Founded in 2005, Splash Club has been the premier destination for swimming enthusiasts of all ages and
+                Founded in 2013, Thokoza Swimming  Club has been the premier destination for swimming enthusiasts of all ages and
                 skill levels.
               </p>
               <p className="text-muted-foreground">
@@ -387,7 +387,8 @@ export default function Home() {
                   <MapPin className="h-5 w-5 text-sky-600 mt-0.5" />
                   <div>
                     <h3 className="font-medium">Address</h3>
-                    <p className="text-muted-foreground">#</p>
+                    <p className="text-muted-foreground">50 Khumalo street </p>
+                    <p className="text-muted-foreground">Thokoza </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -409,7 +410,7 @@ export default function Home() {
                   </svg>
                   <div>
                     <h3 className="font-medium">Email</h3>
-                    <p className="text-muted-foreground">info@splashclub.com</p>
+                    <p className="text-muted-foreground">thokozaswimmingclub@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -423,7 +424,8 @@ export default function Home() {
                   </svg>
                   <div>
                     <h3 className="font-medium">Phone</h3>
-                    <p className="text-muted-foreground">#</p>
+                    <p className="text-muted-foreground">060 768 3867</p>
+                    <p className="text-muted-foreground">060 768 3867</p>
                   </div>
                 </div>
               </div>
@@ -495,10 +497,10 @@ export default function Home() {
             <div className="h-8 w-8 rounded-full bg-sky-600 flex items-center justify-center">
               <span className="text-white font-bold">SC</span>
             </div>
-            <span className="font-bold">Splash Club</span>
+            <span className="font-bold">Thokoza Swimming Club</span>
           </div>
           <div className="text-center md:text-left text-sm text-muted-foreground">
-            © 2023 Splash Club. All rights reserved.
+          Thokoza Swimming Club. All rights reserved.
           </div>
           <div className="flex gap-4">
             <Link href="#" className="text-muted-foreground hover:text-foreground">
