@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Calendar, Clock, MapPin, Users } from "lucide-react"
+import { ImageSlideshow } from "@/components/ui/image-slideshow"
 
 import { Button } from "../src/components/ui/button"
 
@@ -11,7 +12,7 @@ export default function Home() {
         <div className="container flex h-16 items-center">
           <Link href="/" className="flex items-center gap-2">
             <div className="h-8 w-8 rounded-full bg-sky-600 flex items-center justify-center">
-              <span className="text-white font-bold">SC</span>
+              <span className="text-white font-bold">TSC</span>
             </div>
             <span className="font-bold text-xl">Thokoza Swimming Club</span>
           </Link>
@@ -118,6 +119,40 @@ export default function Home() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        {/* Gallery section with another slideshow */}
+        <section className="w-full py-12 md:py-24">
+          <div className="container space-y-8">
+            <div className="space-y-4 text-center">
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Facilities</h2>
+              <p className="text-muted-foreground max-w-[700px] mx-auto">
+                Take a tour of our world-class swimming facilities and amenities.
+              </p>
+            </div>
+            <div className="max-w-4xl mx-auto">
+              <ImageSlideshow
+                images={[
+                  { src: "/pictures/picture2.jpeg", alt: "Olympic-sized pool" },
+                  { src: "/pictures/picture3.jpeg", alt: "Training area" },
+                  { src: "/pictures/picture4.jpeg", alt: "Locker rooms" },
+                  { src: "/pictures/picture5.jpeg", alt: "Relaxation area" },
+                  { src: "/pictures/picture6.jpeg", alt: "Relaxation area" },
+                  { src: "/pictures/picture7.jpeg", alt: "Relaxation area" },
+                  { src: "/pictures/picture8.jpeg", alt: "Relaxation area" },
+                  { src: "/pictures/picture9.jpeg", alt: "Relaxation area" },
+                  { src: "/pictures/picture10.jpeg", alt: "Relaxation area" },
+                  { src: "/pictures/picture11.jpeg", alt: "Relaxation area" },
+                  { src: "/pictures/picture12.jpeg", alt: "Relaxation area" },
+                  { src: "/pictures/picture13.jpeg", alt: "Relaxation area" },
+                  { src: "/pictures/picture14.jpeg", alt: "Relaxation area" },
+                  { src: "/pictures/picture15.jpeg", alt: "Relaxation area" },
+                  { src: "/pictures/picture16.jpeg", alt: "Relaxation area" },
+                  { src: "/pictures/picture17.jpeg", alt: "Relaxation area" },
+                ]}
+                autoPlayInterval={4000}
+              />
             </div>
           </div>
         </section>
@@ -490,6 +525,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        
       </main>
       <footer className="w-full border-t py-6 md:py-0">
         <div className="container flex flex-col md:flex-row justify-between items-center gap-4 md:h-24">
